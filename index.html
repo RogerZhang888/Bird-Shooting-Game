@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<img class="background-image" src="assets/forest.jpg">
+  <img class="bird" id="bird" src="assets/bird.png">
+  <div class="score-counter">
+    Score: <span id="score">0</span>
+  </div>
+
+  <div class="instructions" id="start">
+    <p>Welcome to the Bird Shooting Game!</p>
+    <p>You have 10 seconds to shoot as many birds as you can.</p>
+    <p>Are you ready?</p>
+    <button id="start-button" onclick = startGame()>start</button>
+  </div>
+  <div class="instructions" id="end">
+    <p id="score-message">Your score is </p>
+    <button id="reset-button" class="reset-button">Play Again</button> 
+  </div>
+<div id="timer">
+
+</div>
+</body>
+
+<script src="main.js"></script>
+</html>
